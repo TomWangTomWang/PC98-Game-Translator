@@ -37,12 +37,12 @@ pip install -r requirements.txt
 ```sh
 python back.py
 ```
-(3) Features
+### **(3) Features**
 Listens on port 8000, waiting for frontend requests.
 Processes captured text, calling the Qwen2.5-VL-3B model for inference.
 Returns translated results to the frontend.
 
-🛠️ Tech Stack
+### **🛠️ Tech Stack**
 Frontend:
 Gradio: For interactive UI
 PyAutoGUI: For screen capture
@@ -54,7 +54,7 @@ Torch + Transformers: For Qwen2.5-VL-3B model inference
 Uvicorn: Runs the backend service
 glob: Automatically retrieves the latest screenshots
 
-🎯 Usage Instructions
+### **🎯 Usage Instructions**
 
 1️⃣ Screenshot Translation
 Run the frontend (front.py), and select a screenshot area.
